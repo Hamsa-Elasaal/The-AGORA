@@ -4,6 +4,13 @@
 
 The project includes a browser-based version and a Python desktop version.
 
+## What Does “The AGORA” Mean?
+
+The name **AGORA** is inspired by the *agora* of ancient Greece — a public gathering place where people came together to exchange ideas, discuss questions, and share knowledge.
+
+The name reflects the spirit of the game: a space for curiosity, learning, and friendly challenges. Just as people once gathered in the agora to exchange ideas, players enter **The AGORA** to test what they know, discover new facts, and explore programming and world geography.
+
+
 ## Play Online
 
 The browser version is provided in `index.html`.
