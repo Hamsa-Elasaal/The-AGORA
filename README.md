@@ -17,27 +17,21 @@ The browser version is provided in `index.html`.
 ### 1. Welcome Screen
 The player enters a name before starting the quiz.
 
-*Screenshot: Welcome Screen — to be uploaded to the repository.*
+![The AGORA — Welcome Screen](screenshots/01-welcome-screen.png)
 
 ### 2. Arena Selection
 Players choose between the Python programming arena and the World Capitals arena.
 
-*Screenshot: Arena Selection — to be uploaded to the repository.*
+![The AGORA — Arena Selection](screenshots/02-arena-selection.png)
 
 ### 3. Incorrect Answer Feedback
-*Screenshot to be added — shows the feedback displayed after selecting an incorrect answer.*
-
-*Screenshot: Incorrect Answer Feedback — to be added.*
+![The AGORA — Incorrect Answer Feedback](screenshots/03-incorrect-answer.png)
 
 ### 4. Correct Answer Feedback
-*Screenshot to be added — shows the feedback displayed after selecting the correct answer.*
-
-*Screenshot: Correct Answer Feedback — to be added.*
+![The AGORA — Correct Answer Feedback](screenshots/04-correct-answer.png)
 
 ### 5. Final Results
-*Screenshot to be added — shows the player's final score and quiz results.*
-
-*Screenshot: Final Results — to be added.*
+![The AGORA — Final Results](screenshots/05-final-results.png)
 
 ## Features
 
