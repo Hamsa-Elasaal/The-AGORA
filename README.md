@@ -1,67 +1,93 @@
-# The Agora Quiz
+# The AGORA — Interactive Quiz Game
 
-**The Agora** is a small interactive quiz game built with **Python and Tkinter**. It lets players test their knowledge through two quiz categories: Python programming and world capital cities.
+**The AGORA** is an interactive quiz game built around two knowledge arenas: **Python programming** and **World Capitals**. Players enter a name, choose an arena, answer multiple-choice questions, and receive feedback and a final performance summary.
 
-The project focuses on practicing Python fundamentals, GUI development, event handling, and basic game logic.
+The project includes a browser-based version and a Python desktop version.
+
+## Play Online
+
+The browser version is provided in `index.html`.
+
+> **GitHub Pages:** Enable Pages in **Settings → Pages**, select **Deploy from a branch**, then choose branch `main` and folder `/(root)`. Once deployment is complete, the game should be available at:
+>
+> https://hamsa-elasaal.github.io/The-AGORA/
+
+## Screenshots — Web Version
+
+### 1. Welcome Screen
+The player enters a name before starting the quiz.
+
+![The AGORA — Welcome Screen](screenshots/01-welcome-screen.png)
+
+### 2. Arena Selection
+Players choose between the Python programming arena and the World Capitals arena.
+
+![The AGORA — Arena Selection](screenshots/02-arena-selection.png)
+
+### 3. Incorrect Answer Feedback
+*Screenshot to be added — shows the feedback displayed after selecting an incorrect answer.*
+
+![The AGORA — Incorrect Answer Feedback](screenshots/03-incorrect-answer.png)
+
+### 4. Correct Answer Feedback
+*Screenshot to be added — shows the feedback displayed after selecting the correct answer.*
+
+![The AGORA — Correct Answer Feedback](screenshots/04-correct-answer.png)
+
+### 5. Final Results
+*Screenshot to be added — shows the player's final score and quiz results.*
+
+![The AGORA — Final Results](screenshots/05-final-results.png)
 
 ## Features
 
-- **Player welcome screen** to enter a name before starting.
-- **Two quiz categories:**
-  - Python — code-reading and programming fundamentals.
-  - Capitals — questions about world capitals.
-- **Randomized questions** each time a quiz starts.
-- **Multiple-choice answers** with immediate visual feedback.
-- **Weighted scoring** — questions have different point values.
-- **Progress and live score** displayed during the quiz.
-- **Results screen** showing the final score, accuracy, correct answers, and incorrect answers.
-- **Learning links** shown after an incorrect answer.
-- **Replay options** to play again, change category, or return home.
+- Player name entry and welcome screen.
+- Two quiz arenas: **Python** and **World Capitals**.
+- Multiple-choice questions.
+- Randomized question order.
+- Immediate feedback after answering.
+- Score tracking and quiz progress.
+- Final results at the end of a quiz.
+- Options to play again or choose another arena.
 
-## Built With
+## Technologies
 
-- Python
-- Tkinter (Python's standard GUI library)
-- Python standard-library modules: `random` and `webbrowser`
+- **Python** — desktop application logic.
+- **Tkinter** — graphical user interface for the desktop version.
+- **HTML, CSS and JavaScript** — browser-based version.
 
-No third-party Python packages are required.
+## Run the Python Desktop Version
 
-## Run the Game
-
-1. Make sure Python 3 is installed.
-2. Download or clone this repository.
-3. Open a terminal in the project folder.
+1. Install Python 3.
+2. Clone or download this repository.
+3. Open a terminal in the project directory.
 4. Run:
 
 ```bash
 python agora_quiz.py
 ```
 
-A desktop window should open. Enter your name, choose a category, and start playing.
+If Tkinter is not included in your Python installation, install the Tk support package for your operating system.
 
-> **Note:** Tkinter is included with many standard Python installations. If your Python installation does not include Tkinter, install the Tk support package for your operating system.
-
-## Project Structure
+## Repository Structure
 
 ```text
 The-AGORA/
-├── agora_quiz.py   # Main Python desktop application (Tkinter)
-├── index.html      # Browser-based version / web prototype
-└── README.md       # Project documentation
+├── agora_quiz.py       # Python desktop game
+├── index.html          # Browser-based game
+├── screenshots/
+│   ├── 01-welcome-screen.png
+│   ├── 02-arena-selection.png
+│   ├── 03-incorrect-answer.png
+│   ├── 04-correct-answer.png
+│   └── 05-final-results.png
+└── README.md
 ```
-
-## How to Play
-
-1. Enter your name.
-2. Select **Python** or **Capitals**.
-3. Answer the multiple-choice questions.
-4. Review the feedback and your score.
-5. View your results, then replay or choose another category.
 
 ## Project Scope
 
-This is an educational quiz-game project. The question bank is currently defined directly in the source code, and scores are calculated for the current play session. It does not currently include user accounts, a database, or persistent leaderboards.
+The game is an educational project focused on programming knowledge and general geography. It is designed for individual play sessions; persistent user accounts, a database, and online leaderboards are not part of the current implementation.
 
 ---
 
-*Built as a hands-on project to explore Python programming and desktop GUI development.*
+*The AGORA — Logic · Knowledge · Programming*
